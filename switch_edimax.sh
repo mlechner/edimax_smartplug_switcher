@@ -1,4 +1,5 @@
 #!/bin/sh
+PF=0
 
 # read config
 . ./switch_edimax.cfg

@@ -1,2 +1,0 @@
-wget 'http://admin:1234@localhost:54321' --post-file='status.xml' --header='Content-Type:text/xml'
-wget 'http://admin:1234@localhost:54321' --post-data="$(cat 'status.xml')" --header='Content-Type:text/xml'

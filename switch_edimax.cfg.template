@@ -7,6 +7,5 @@ ON_XML=./on.xml
 OFF_XML=./off.xml
 STATUS_XML=./status.xml
 HEADER='Content-Type:text/xml'
-PF=0
 
 URL=$PROTO'://'$USER':'$PASS'@'$IP':'$PORT
