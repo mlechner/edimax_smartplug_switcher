@@ -1,6 +1,6 @@
-IP=localhost
+IP=192.168.0.42
 PROTO=http
-PORT=54321
+PORT=10000
 USER=admin
 PASS=1234
 ON_XML=./on.xml
@@ -8,4 +8,4 @@ OFF_XML=./off.xml
 STATUS_XML=./status.xml
 HEADER='Content-Type:text/xml'
 
-URL=$PROTO'://'$USER':'$PASS'@'$IP':'$PORT
+URL=$PROTO'://'$USER':'$PASS'@'$IP':'$PORT'/smartplug.cgi'

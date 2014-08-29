@@ -77,9 +77,9 @@ do
       shift
       if [ "$PF" -eq "1" ]
         then
-          wget $URL --post-data="$(cat $ON_XML)" --header=$HEADER
+          wget -q -O- $URL --post-data="$(cat $ON_XML)" --header=$HEADER
         else
-          wget $URL --post-file=$ON_XML --header=$HEADER
+          wget -q -O- $URL --post-file=$ON_XML --header=$HEADER
       fi
       exit 0
       ;;
@@ -87,9 +87,9 @@ do
       shift
       if [ "$PF" -eq "1" ]
         then
-          wget $URL --post-data="$(cat $OFF_XML)" --header=$HEADER
+          wget -q -O- $URL --post-data="$(cat $OFF_XML)" --header=$HEADER
         else
-          wget $URL --post-file=$OFF_XML --header=$HEADER
+          wget -q -O- $URL --post-file=$OFF_XML --header=$HEADER
       fi
       exit 0
       ;;
@@ -97,9 +97,9 @@ do
       shift
       if [ "$PF" -eq "1" ]
         then
-          wget $URL --post-data="$(cat $STATUS_XML)" --header=$HEADER
+          wget -q -O- $URL --post-data="$(cat $STATUS_XML)" --header=$HEADER
         else
-          wget $URL --post-file=$STATUS_XML --header=$HEADER
+          wget -q -O- $URL --post-file=$STATUS_XML --header=$HEADER
       fi
       exit 0
       ;;
