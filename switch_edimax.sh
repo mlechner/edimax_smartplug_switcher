@@ -1,23 +1,27 @@
 #!/bin/sh
 
-IP=localhost
-PROTO=http
-PORT=54321
-USER=admin
-PASS=1234
-ON_XML=./on.xml
-OFF_XML=./off.xml
-STATUS_XML=./status.xml
-HEADER='Content-Type:text/xml'
-PF=0
+# read config
+. ./switch_edimax.cfg
 
-URL=$PROTO'://'$USER':'$PASS'@'$IP':'$PORT
+PrintConfig () {
+  echo "Reading config...." >&2
+  echo "Using config:"
+  echo "URL: $URL" >&2
+  echo "HEADER: $HEADER" >&2
+  echo "ON_XML: $ON_XML" >&2
+  echo "OFF_XML: $OFF_XML" >&2
+  echo "STATUS_XML: $STATUS_XML" >&2
+  echo "----------------------------"
+}
 
 Usage () {
   echo "Usage:"
-  echo "./switch_edimax.sh [-pf][-10su]"
+  echo "./switch_edimax.sh [-c][-pf][-10su]"
   echo ""
   echo "Switch Edimax on, off or request status"
+  echo ""
+  echo "Config:"
+  echo "    -c or --config Print config"
   echo ""
   echo "Flag:"
   echo "    -pf or --post-file  Send xml via wgets post-file - not available at older wget"
@@ -37,6 +41,19 @@ if [ $# -lt 1 ]
     Usage
     exit 1
 fi
+
+while [ "$#" -gt "0" ]
+do
+  case $1 in
+    -c|--config)
+      PrintConfig
+      exit 1
+      ;;
+    *)
+      break
+      ;;
+  esac
+done
 
 while [ "$#" -gt "0" ] && [ "$PF" -eq "0" ]
 do
