@@ -11,3 +11,5 @@ Installation
 Copy edimax_switcher.cfg.template to edimax_switcher.cfg and edit it to your needs.
 
 Start with ./edimax_switcher.sh -h
+
+
