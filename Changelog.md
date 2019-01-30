@@ -1,0 +1,12 @@
+<li> <a href="http://github.com/mlechner/edimax_project_switcher/commit/e2a64e55ab3275cd6cd031af69c2992e00847972">view commit &bull;</a> initial commit</li> 
+<li> <a href="http://github.com/mlechner/edimax_project_switcher/commit/48a3da256233e917bd7e1bcd0cc4bd2826fffe08">view commit &bull;</a> added post-file flag to support old wget</li> 
+<li> <a href="http://github.com/mlechner/edimax_project_switcher/commit/68dae7fc9b34d77f687ddf92f2facfff14e0ab83">view commit &bull;</a> external config</li> 
+<li> <a href="http://github.com/mlechner/edimax_project_switcher/commit/ceb0eb8edd1191df1f3a611814cbf6e46ce9aa7f">view commit &bull;</a> added MIT LICENSE</li> 
+<li> <a href="http://github.com/mlechner/edimax_project_switcher/commit/32289da0a7dfca225918779cbed78492994e226f">view commit &bull;</a> Initial commit</li> 
+<li> <a href="http://github.com/mlechner/edimax_project_switcher/commit/8246064bd52bbe099a9a2987a984b7198a7ea931">view commit &bull;</a> Merge remote-tracking branch 'origin/master'</li> 
+<li> <a href="http://github.com/mlechner/edimax_project_switcher/commit/b3f5756814985f357ad8d5abba4edf9765777895">view commit &bull;</a> edited readme and movde config file to template</li> 
+<li> <a href="http://github.com/mlechner/edimax_project_switcher/commit/a1fa2d0fc35c9d962c68b4a86f548e70aa96a2bf">view commit &bull;</a> minor changes in Readme</li> 
+<li> <a href="http://github.com/mlechner/edimax_project_switcher/commit/46b4c34232d6d1ddf3d2984b2ea8dcbc0c0cac51">view commit &bull;</a> moved PF to +.sh</li> 
+<li> <a href="http://github.com/mlechner/edimax_project_switcher/commit/324136defc6079f1a61493c075f45ce600d9f38a">view commit &bull;</a> changed port, url and fixed wget printing to stdout instead of downloading a file</li> 
+<li> <a href="http://github.com/mlechner/edimax_project_switcher/commit/eb304a6da12b6539d6134f7935795dff8a6bd1af">view commit &bull;</a> added .idea and *~ to gitignore</li> 
+<li> <a href="http://github.com/mlechner/edimax_project_switcher/commit/741277facc5d3eae79dc756e2f1341137f234fc2">view commit &bull;</a> minor change</li> 
