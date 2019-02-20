@@ -1,7 +1,7 @@
 edimax_smartplug_switcher
 =========================
 
-Shell-based Switcher for Edimax Smartplug SP-1101W (at least)
+Shell-based Switcher for Edimax Smartplug SP-1101W and SP-2101W.
 
 Using this litle piece of software you can switch your Edimax Smartplug just using shell commands. E.g. if you have got an old WRT54GL running OpenWRT you can use this port to start peripherals plugged into the Edimax.
 
