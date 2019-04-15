@@ -103,6 +103,26 @@ do
       fi
       exit 0
       ;;
+    -p|--power)
+      shift
+      if [ "$PF" -eq "1" ]
+        then
+          wget -q -O- $URL --post-data="$(cat $POWER_XML)" --header=$HEADER
+        else
+          wget -q -O- $URL --post-file=$POWER_XML --header=$HEADER
+      fi
+      exit 0
+      ;;
+    -x|--current)
+      shift
+      if [ "$PF" -eq "1" ]
+        then
+          wget -q -O- $URL --post-data="$(cat $CURRENT_XML)" --header=$HEADER
+        else
+          wget -q -O- $URL --post-file=$CURRENT_XML --header=$HEADER
+      fi
+      exit 0
+      ;;
     -u|-h|--help|--usage)
       shift
       Usage
