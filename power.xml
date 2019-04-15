@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF8"?>
+<SMARTPLUG id="edimax">
+  <CMD id="get">
+    <NOW_POWER>
+      <Device.System.Power.NowPower></Device.system.Power.NowPower>
+    </NOW_POWER>
+  </CMD>
+</SMARTPLUG>

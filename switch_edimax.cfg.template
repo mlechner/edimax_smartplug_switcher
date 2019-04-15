@@ -6,6 +6,8 @@ PASS=1234
 ON_XML=./on.xml
 OFF_XML=./off.xml
 STATUS_XML=./status.xml
+POWER_XML=./power.xml
+CURRENT_XML=./current.xml
 HEADER='Content-Type:text/xml'
 
 URL=$PROTO'://'$USER':'$PASS'@'$IP':'$PORT'/smartplug.cgi'
